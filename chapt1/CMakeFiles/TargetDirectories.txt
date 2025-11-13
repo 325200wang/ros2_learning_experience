@@ -1,0 +1,3 @@
+/home/ubuntu/chapt1/CMakeFiles/learn_camke.dir
+/home/ubuntu/chapt1/CMakeFiles/edit_cache.dir
+/home/ubuntu/chapt1/CMakeFiles/rebuild_cache.dir

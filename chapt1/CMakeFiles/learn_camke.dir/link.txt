@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/learn_camke.dir/world.cpp.o -o learn_camke
