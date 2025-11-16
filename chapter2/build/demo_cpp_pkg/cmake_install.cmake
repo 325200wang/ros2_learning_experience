@@ -1,4 +1,4 @@
-# Install script for directory: /media/dubhe/store/learning/ros2_learning_experience/chapter2/demo_cpp_pkg
+# Install script for directory: /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/src/demo_cpp_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -118,7 +118,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_cpp_pkg" TYPE FILE FILES "/media/dubhe/store/learning/ros2_learning_experience/chapter2/demo_cpp_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_cpp_pkg" TYPE FILE FILES "/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/src/demo_cpp_pkg/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

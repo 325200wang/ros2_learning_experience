@@ -54,7 +54,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/dubhe/store/learning/ros2_learning_experience/chapter2/demo_cpp_pkg
+CMAKE_SOURCE_DIR = /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/src/demo_cpp_pkg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /media/dubhe/store/learning/ros2_learning_experience/chapter2/build/demo_cpp_pkg
