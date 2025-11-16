@@ -1,6 +1,0 @@
-/home/ubuntu/chapt2/CMakeFiles/ros2_cpp_node.dir
-/home/ubuntu/chapt2/CMakeFiles/uninstall.dir
-/home/ubuntu/chapt2/CMakeFiles/ros2_cpp_uninstall.dir
-/home/ubuntu/chapt2/CMakeFiles/test.dir
-/home/ubuntu/chapt2/CMakeFiles/edit_cache.dir
-/home/ubuntu/chapt2/CMakeFiles/rebuild_cache.dir
