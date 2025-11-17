@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'python_node = demo_python_pkg.python_node:main',
             'person_node = demo_python_pkg.person_node:main',
+            'writer_node = demo_python_pkg.writer_node:main',
         ],
     },
 )

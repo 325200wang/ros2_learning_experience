@@ -12,6 +12,7 @@ setup.py
 demo_python_pkg/__init__.py
 demo_python_pkg/person_node.py
 demo_python_pkg/python_node.py
+demo_python_pkg/writer_node.py
 resource/demo_python_pkg
 test/test_copyright.py
 test/test_flake8.py

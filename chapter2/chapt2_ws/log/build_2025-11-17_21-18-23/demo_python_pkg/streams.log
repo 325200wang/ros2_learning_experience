@@ -1,0 +1,25 @@
+[0.333s] Invoking command in '/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/src/demo_python_pkg': PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/build/demo_python_pkg/build install --record /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.469s] running egg_info
+[0.469s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.469s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.469s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.469s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.469s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.471s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.471s] adding license file 'LICENSE'
+[0.471s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] running install
+[0.472s] running install_lib
+[0.472s] byte-compiling /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/writer_node.py to writer_node.cpython-310.pyc
+[0.473s] running install_data
+[0.473s] running install_egg_info
+[0.474s] removing '/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.474s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.475s] running install_scripts
+[0.488s] Installing person_node script to /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.489s] Installing python_node script to /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.489s] Installing writer_node script to /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.489s] writing list of installed files to '/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/build/demo_python_pkg/install.log'
+[0.504s] Invoked command in '/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/build/demo_python_pkg/build install --record /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
