@@ -13,17 +13,19 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 #查找rclcpp的头文件和库
 find_package(rclcpp REQUIRED)
-
+include_directories(include)
 #添加可执行文件 cpp_node
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp)
+add_executable(learn_thread src/learn_thread.cpp)
+ament_target_dependencies(learn_thread rclcpp)
 #为person_node添加依赖
 ament_target_dependencies(person_node rclcpp)
 #为cpp_node添加依赖
 ament_target_dependencies(cpp_node rclcpp)
 #将cpp_node复制到install目录
 install(TARGETS
-cpp_node person_node
+cpp_node person_node learn_thread
 DESTINATION lib/demo_cpp_pkg
 )
 if(BUILD_TESTING)
