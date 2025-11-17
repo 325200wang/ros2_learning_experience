@@ -16,12 +16,14 @@ find_package(rclcpp REQUIRED)
 
 #添加可执行文件 cpp_node
 add_executable(cpp_node src/cpp_node.cpp)
-
+add_executable(person_node src/person_node.cpp)
+#为person_node添加依赖
+ament_target_dependencies(person_node rclcpp)
 #为cpp_node添加依赖
 ament_target_dependencies(cpp_node rclcpp)
 #将cpp_node复制到install目录
 install(TARGETS
-cpp_node
+cpp_node person_node
 DESTINATION lib/demo_cpp_pkg
 )
 if(BUILD_TESTING)
