@@ -1,10 +1,12 @@
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/writer_node.py
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py
+/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/learn_thread.py
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/__init__.cpython-310.pyc
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/writer_node.cpython-310.pyc
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/python_node.cpython-310.pyc
+/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/learn_thread.cpython-310.pyc
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/person_node.cpython-310.pyc
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages/demo_python_pkg
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg/package.xml
@@ -15,6 +17,7 @@
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info/entry_points.txt
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg/learn_thread
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg/person_node
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg/python_node
 /media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg/writer_node
