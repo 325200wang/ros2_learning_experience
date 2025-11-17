@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000155] (-) JobUnselected: {'identifier': 'demo_cpp_pkg'}
+[0.000177] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict([('demo_cpp_pkg', '/media/dubhe/store/learning/ros2_learning_experience/chapter2/chapt2_ws/install/demo_cpp_pkg')])}
+[0.000300] (demo_python_pkg) JobStarted: {'identifier': 'demo_python_pkg'}
+[0.005017] (demo_python_pkg) JobEnded: {'identifier': 'demo_python_pkg', 'rc': 1}
+[0.015504] (-) EventReactorShutdown: {}

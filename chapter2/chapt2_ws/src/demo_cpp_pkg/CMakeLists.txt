@@ -13,8 +13,10 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 #查找rclcpp的头文件和库
 find_package(rclcpp REQUIRED)
+
 #添加可执行文件 cpp_node
 add_executable(cpp_node src/cpp_node.cpp)
+
 #为cpp_node添加依赖
 ament_target_dependencies(cpp_node rclcpp)
 #将cpp_node复制到install目录
