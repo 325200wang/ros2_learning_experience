@@ -1,0 +1,25 @@
+[0.333s] Invoking command in '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/demo_python_topic': PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_topic build --build-base /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/build install --record /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.469s] running egg_info
+[0.469s] writing ../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.470s] writing dependency_links to ../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.470s] writing entry points to ../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.470s] writing requirements to ../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.470s] writing top-level names to ../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.471s] reading manifest file '../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.471s] adding license file 'LICENSE'
+[0.471s] writing manifest file '../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] copying demo_python_topic/novel_pub_node.py -> /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/build/lib/demo_python_topic
+[0.471s] running install
+[0.472s] running install_lib
+[0.472s] copying /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.473s] byte-compiling /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.473s] running install_data
+[0.473s] running install_egg_info
+[0.474s] removing '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.474s] Copying ../build/demo_python_topic/demo_python_topic.egg-info to /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.475s] running install_scripts
+[0.488s] Installing novel_pub script to /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/demo_python_topic
+[0.488s] writing list of installed files to '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/install.log'
+[0.501s] Invoked command in '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_topic build --build-base /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/build install --record /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_python_topic/install.log --single-version-externally-managed install_data
