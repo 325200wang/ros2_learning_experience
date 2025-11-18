@@ -8,7 +8,7 @@ class NovelPubNode(Node):
     def __init__(self, node_name):
         super().__init__(node_name)
         self.novels_queue_ = Queue()
-        self.publisher_ = self.create_publisher(String, 'novel_titles', 10)
+        self.novel_publisher_ = self.create_publisher(String, 'novel', 10)
         self.timer_ = self.create_timer(5.0, self.timer_callback)
 
     def download_novel(self, url):
