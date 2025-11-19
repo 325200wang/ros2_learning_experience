@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (-) JobUnselected: {'identifier': 'demo_python_topic'}
+[0.000267] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.000280] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.004680] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.005439] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.005457] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic', '--', '-j16', '-l16'], 'cwd': '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'dubhe'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dubhe'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2105'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2456'), ('BUNDLED_DEBUGPY_PATH', '/home/dubhe/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3624'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dubhe'), ('JOURNAL_STREAM', '8:11721'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'dubhe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dubhe/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/dubhe/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dubhe/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/dubhe-Alienware-m15-R6:@/tmp/.ICE-unix/2429,unix/dubhe-Alienware-m15-R6:/tmp/.ICE-unix/2429'), ('INVOCATION_ID', '70fd090ae2b745909c9cf577efb8999e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/dubhe/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-1d17111869ec85c0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/dubhe/.config/Code/User/workspaceStorage/4f8120ef81439a5c0386561915d70b95/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-812cc44a21.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic:/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic:/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic:/opt/ros/humble')]), 'shell': False}
+[0.022372] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098858] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099859] (-) TimerEvent: {}
+[0.116400] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.117862] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.121580] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.127626] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.135721] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.156487] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.157262] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199979] (-) TimerEvent: {}
+[0.218380] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.247590] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.254695] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.277418] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.300065] (-) TimerEvent: {}
+[0.322418] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.322598] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.322636] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.322777] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.323251] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.323289] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.323437] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.323933] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.332204] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.335667] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic\n'}
+[0.361360] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[0.362325] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[0.373958] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[0.400182] (-) TimerEvent: {}
+[0.500532] (-) TimerEvent: {}
+[0.600904] (-) TimerEvent: {}
+[0.701254] (-) TimerEvent: {}
+[0.801518] (-) TimerEvent: {}
+[0.901800] (-) TimerEvent: {}
+[1.002134] (-) TimerEvent: {}
+[1.102509] (-) TimerEvent: {}
+[1.202843] (-) TimerEvent: {}
+[1.303220] (-) TimerEvent: {}
+[1.403586] (-) TimerEvent: {}
+[1.503979] (-) TimerEvent: {}
+[1.604351] (-) TimerEvent: {}
+[1.704780] (-) TimerEvent: {}
+[1.805185] (-) TimerEvent: {}
+[1.905632] (-) TimerEvent: {}
+[2.005909] (-) TimerEvent: {}
+[2.106204] (-) TimerEvent: {}
+[2.206473] (-) TimerEvent: {}
+[2.306819] (-) TimerEvent: {}
+[2.407160] (-) TimerEvent: {}
+[2.507551] (-) TimerEvent: {}
+[2.607837] (-) TimerEvent: {}
+[2.708106] (-) TimerEvent: {}
+[2.808434] (-) TimerEvent: {}
+[2.908751] (-) TimerEvent: {}
+[3.009051] (-) TimerEvent: {}
+[3.109407] (-) TimerEvent: {}
+[3.209674] (-) TimerEvent: {}
+[3.309935] (-) TimerEvent: {}
+[3.410203] (-) TimerEvent: {}
+[3.510470] (-) TimerEvent: {}
+[3.610764] (-) TimerEvent: {}
+[3.711044] (-) TimerEvent: {}
+[3.811311] (-) TimerEvent: {}
+[3.911576] (-) TimerEvent: {}
+[4.011846] (-) TimerEvent: {}
+[4.112120] (-) TimerEvent: {}
+[4.212394] (-) TimerEvent: {}
+[4.312634] (-) TimerEvent: {}
+[4.412931] (-) TimerEvent: {}
+[4.513233] (-) TimerEvent: {}
+[4.613516] (-) TimerEvent: {}
+[4.713787] (-) TimerEvent: {}
+[4.814014] (-) TimerEvent: {}
+[4.914276] (-) TimerEvent: {}
+[5.014590] (-) TimerEvent: {}
+[5.114862] (-) TimerEvent: {}
+[5.215163] (-) TimerEvent: {}
+[5.315406] (-) TimerEvent: {}
+[5.415662] (-) TimerEvent: {}
+[5.515907] (-) TimerEvent: {}
+[5.616174] (-) TimerEvent: {}
+[5.716488] (-) TimerEvent: {}
+[5.816800] (-) TimerEvent: {}
+[5.917120] (-) TimerEvent: {}
+[6.017392] (-) TimerEvent: {}
+[6.117690] (-) TimerEvent: {}
+[6.152640] (demo_cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[6.217807] (-) TimerEvent: {}
+[6.318229] (-) TimerEvent: {}
+[6.418609] (-) TimerEvent: {}
+[6.445018] (demo_cpp_topic) StdoutLine: {'line': b'[100%] Built target turtle_control\n'}
+[6.453305] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[6.453805] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'install'}
+[6.460980] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic'], 'cwd': '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'dubhe'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dubhe'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2105'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2456'), ('BUNDLED_DEBUGPY_PATH', '/home/dubhe/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3624'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dubhe'), ('JOURNAL_STREAM', '8:11721'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'dubhe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dubhe/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/dubhe/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dubhe/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/dubhe-Alienware-m15-R6:@/tmp/.ICE-unix/2429,unix/dubhe-Alienware-m15-R6:/tmp/.ICE-unix/2429'), ('INVOCATION_ID', '70fd090ae2b745909c9cf577efb8999e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/dubhe/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-1d17111869ec85c0.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/dubhe/.config/Code/User/workspaceStorage/4f8120ef81439a5c0386561915d70b95/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-812cc44a21.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic:/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic:/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_python_topic:/opt/ros/humble')]), 'shell': False}
+[6.466446] (demo_cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.466602] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle\n'}
+[6.466697] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control\n'}
+[6.468490] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""\n'}
+[6.468581] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic\n'}
+[6.468665] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic\n'}
+[6.468816] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh\n'}
+[6.468944] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv\n'}
+[6.469018] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh\n'}
+[6.469107] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv\n'}
+[6.469175] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash\n'}
+[6.469238] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh\n'}
+[6.469301] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh\n'}
+[6.469366] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv\n'}
+[6.469432] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv\n'}
+[6.469522] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic\n'}
+[6.469586] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake\n'}
+[6.469650] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake\n'}
+[6.469718] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/package.xml\n'}
+[6.470940] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[6.482785] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 0}
+[6.483307] (-) EventReactorShutdown: {}

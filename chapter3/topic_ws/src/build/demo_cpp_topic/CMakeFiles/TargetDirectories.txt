@@ -1,6 +1,7 @@
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic/CMakeFiles/uninstall.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic/CMakeFiles/demo_cpp_topic_uninstall.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic/CMakeFiles/turtle_circle.dir
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic/CMakeFiles/turtle_control.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic/CMakeFiles/test.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic/CMakeFiles/edit_cache.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_ws/src/build/demo_cpp_topic/CMakeFiles/rebuild_cache.dir
