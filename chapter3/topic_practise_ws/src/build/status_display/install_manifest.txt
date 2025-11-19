@@ -1,0 +1,16 @@
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/lib/status_display/hello_qt
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/environment/ament_prefix_path.sh
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/environment/path.sh
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/environment/path.dsv
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/local_setup.bash
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/local_setup.sh
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/local_setup.zsh
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/local_setup.dsv
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/package.dsv
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/ament_index/resource_index/packages/status_display
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_display/share/status_display/package.xml
