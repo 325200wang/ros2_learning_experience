@@ -708,5 +708,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/status_display_uninstall.dir/DependInfo.cmake"
+  "CMakeFiles/sys_status_display.dir/DependInfo.cmake"
   "CMakeFiles/hello_qt.dir/DependInfo.cmake"
   )

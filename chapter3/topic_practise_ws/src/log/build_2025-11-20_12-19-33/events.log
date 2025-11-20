@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (-) JobUnselected: {'identifier': 'status_display'}
+[0.000239] (-) JobUnselected: {'identifier': 'status_interfaces'}
+[0.000271] (-) JobUnselected: {'identifier': 'status_publisher'}
+[0.000367] (-) EventReactorShutdown: {}

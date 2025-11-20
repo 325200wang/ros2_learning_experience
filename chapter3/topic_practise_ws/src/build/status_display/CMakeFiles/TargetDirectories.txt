@@ -1,5 +1,6 @@
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display/CMakeFiles/uninstall.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display/CMakeFiles/status_display_uninstall.dir
+/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display/CMakeFiles/sys_status_display.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display/CMakeFiles/hello_qt.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display/CMakeFiles/test.dir
 /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display/CMakeFiles/edit_cache.dir

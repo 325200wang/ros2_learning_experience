@@ -1,0 +1,88 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_qt[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[ 75%] Built target hello_qt
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQstring[m[K’ does not name a type; did you mean ‘[01m[KQString[m[K’?
+   17 |     [01;31m[KQstring[m[K get_qstr_form_msg(const SystemStatus::SharedPtr msg){
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[KQString[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’?
+   33 |         rclcpp::Subscription<[01;31m[KSystemStatus[m[K>::SharedPtr subscription_;
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+      |                              [32m[Kstatus_interfaces::msg::SystemStatus[m[K
+In file included from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp:7[m[K,
+                 from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:5[m[K:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp:224:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’ declared here
+  224 | using [01;36m[KSystemStatus[m[K =
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |         rclcpp::Subscription<SystemStatus[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                          [01;31m[K^[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   33 |         rclcpp::Subscription<SystemStatus>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   33 |         rclcpp::Subscription<SystemStatus>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                       [32m[Krmw_subscription_t[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::SysStatusDisplay()[m[K’:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   10 |             [01;31m[Ksubscription_[m[K = this->create_subscription<SystemStatus>(
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_subscription_t[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:10:55:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’?
+   10 |             subscription_ = this->create_subscription<[01;31m[KSystemStatus[m[K>(
+      |                                                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                       [32m[Kstatus_interfaces::msg::SystemStatus[m[K
+In file included from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp:7[m[K,
+                 from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:5[m[K:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp:224:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’ declared here
+  224 | using [01;36m[KSystemStatus[m[K =
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:11:45:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ does not name a type
+   11 |                 "sys_status", 10, [&](const [01;31m[KSystemStatus[m[K::SharedPtr msg) -> void{
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In lambda function:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:13:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   13 |                 })[01;31m[K;[m[K
+      |                   [01;31m[K^[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::SysStatusDisplay()[m[K’:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:13:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:10:68:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   10 |             subscription_ = this->create_subscription<SystemStatus>[01;36m[K([m[K
+      |                                                                    [01;36m[K^[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:14:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<SystemStatus>()[m[K’
+   14 |             label_ = new QLabel(get_qstr_from_msg([01;31m[Kstd::make_shared<SystemStatus>()[m[K));
+      |                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:52[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:1[m[K,
+                 from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:14:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_qstr_from_msg[m[K’ was not declared in this scope
+   14 |             label_ = new QLabel([01;31m[Kget_qstr_from_msg[m[K(std::make_shared<SystemStatus>()));
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K At global scope:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:6:22:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Ktype name[m[K’
+    6 | using SystemStatus = [01;31m[Kstatus_interfaces[m[K::msg::SystemStatus
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread_spin_thread[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   40 |     std::[01;31m[Kthread_spin_thread[m[K([&]() -> void{
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76：CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/sys_status_display.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

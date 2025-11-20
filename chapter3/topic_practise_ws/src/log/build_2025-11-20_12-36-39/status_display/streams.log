@@ -1,0 +1,104 @@
+[0.008s] Invoking command in '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display': AMENT_PREFIX_PATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display -- -j16 -l16
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[0.039s] [ 50%] Built target hello_qt
+[0.043s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[1.994s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:17:37:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ does not name a type
+[1.994s]    17 |     QString get_qstr_form_msg(const [01;31m[KSystemStatus[m[K::SharedPtr msg){
+[1.994s]       |                                     [01;31m[K^~~~~~~~~~~~[m[K
+[1.994s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:17:61:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[1.994s]    17 |     QString get_qstr_form_msg(const SystemStatus::SharedPtr [01;31m[Kmsg[m[K){
+[1.994s]       |                                                             [01;31m[K^~~[m[K
+[1.994s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:17:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[1.994s]    17 |     QString get_qstr_form_msg[34m[K([m[Kconst SystemStatus::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K){
+[1.994s]       |                              [34m[K~[m[K                             [01;31m[K^[m[K[32m[K~~~[m[K
+[1.994s]       |                                                            [32m[K)[m[K
+[1.994s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:17:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.994s]    17 |     QString get_qstr_form_msg(const SystemStatus::[01;31m[KSharedPtr[m[K msg){
+[1.994s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[1.994s]       |                                                            [32m[K;[m[K
+[1.995s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:17:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[1.995s]    17 |     QString get_qstr_form_msg(const SystemStatus::SharedPtr [01;31m[Kmsg[m[K){
+[1.995s]       |                                                             [01;31m[K^~~[m[K
+[1.996s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’?
+[1.996s]    33 |         rclcpp::Subscription<[01;31m[KSystemStatus[m[K>::SharedPtr subscription_;
+[1.996s]       |                              [01;31m[K^~~~~~~~~~~~[m[K
+[1.996s]       |                              [32m[Kstatus_interfaces::msg::SystemStatus[m[K
+[1.996s] In file included from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp:7[m[K,
+[1.996s]                  from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:5[m[K:
+[1.996s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp:224:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’ declared here
+[1.996s]   224 | using [01;36m[KSystemStatus[m[K =
+[1.996s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.996s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.997s]    33 |         rclcpp::Subscription<SystemStatus[01;31m[K>[m[K::SharedPtr subscription_;
+[1.997s]       |                                          [01;31m[K^[m[K
+[1.997s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.997s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.997s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.997s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.997s]    33 |         rclcpp::Subscription<SystemStatus>::[01;31m[KSharedPtr[m[K subscription_;
+[1.997s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[1.997s]       |                                                      [32m[K;[m[K
+[1.998s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:33:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.999s]    33 |         rclcpp::Subscription<SystemStatus>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.999s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.999s]       |                                                       [32m[Krmw_subscription_t[m[K
+[2.005s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::SysStatusDisplay()[m[K’:
+[2.005s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[2.005s]    10 |             [01;31m[Ksubscription_[m[K = this->create_subscription<SystemStatus>(
+[2.005s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[2.005s]       |             [32m[Krmw_subscription_t[m[K
+[2.005s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:10:55:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’?
+[2.005s]    10 |             subscription_ = this->create_subscription<[01;31m[KSystemStatus[m[K>(
+[2.006s]       |                                                       [01;31m[K^~~~~~~~~~~~[m[K
+[2.006s]       |                                                       [32m[Kstatus_interfaces::msg::SystemStatus[m[K
+[2.006s] In file included from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp:7[m[K,
+[2.006s]                  from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:5[m[K:
+[2.006s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp:224:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstatus_interfaces::msg::SystemStatus[m[K’ declared here
+[2.006s]   224 | using [01;36m[KSystemStatus[m[K =
+[2.006s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.008s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:11:45:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ does not name a type
+[2.008s]    11 |                 "sys_status", 10, [&](const [01;31m[KSystemStatus[m[K::SharedPtr msg) -> void{
+[2.008s]       |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[2.008s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In lambda function:
+[2.008s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:13:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[2.008s]    13 |                 })[01;31m[K;[m[K
+[2.008s]       |                   [01;31m[K^[m[K
+[2.008s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::SysStatusDisplay()[m[K’:
+[2.008s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:13:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.008s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:10:68:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.009s]    10 |             subscription_ = this->create_subscription<SystemStatus>[01;36m[K([m[K
+[2.009s]       |                                                                    [01;36m[K^[m[K
+[2.009s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:14:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<SystemStatus>()[m[K’
+[2.009s]    14 |             label_ = new QLabel(get_qstr_from_msg([01;31m[Kstd::make_shared<SystemStatus>()[m[K));
+[2.009s]       |                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.009s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:71[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:48[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:48[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:52[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:44[m[K,
+[2.009s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:1[m[K,
+[2.009s]                  from [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:2[m[K:
+[2.009s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.009s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.009s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.009s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.012s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:14:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_qstr_from_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_qstr_form_msg[m[K’?
+[2.012s]    14 |             label_ = new QLabel([01;31m[Kget_qstr_from_msg[m[K(std::make_shared<SystemStatus>()));
+[2.012s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.012s]       |                                 [32m[Kget_qstr_form_msg[m[K
+[2.012s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K At global scope:
+[2.012s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:6:22:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Ktype name[m[K’
+[2.012s]     6 | using SystemStatus = [01;31m[Kstatus_interfaces[m[K::msg::SystemStatus
+[2.013s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.017s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.017s] [01m[K/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread_spin_thread[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[2.017s]    40 |     std::[01;31m[Kthread_spin_thread[m[K([&]() -> void{
+[2.017s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.634s] gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76：CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] 错误 1
+[2.634s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/sys_status_display.dir/all] 错误 2
+[2.634s] gmake: *** [Makefile:146：all] 错误 2
+[2.636s] Invoked command in '/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display' returned '2': AMENT_PREFIX_PATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/dubhe/store/learning/ros2_learning_experience/chapter3/topic_practise_ws/src/build/status_display -- -j16 -l16

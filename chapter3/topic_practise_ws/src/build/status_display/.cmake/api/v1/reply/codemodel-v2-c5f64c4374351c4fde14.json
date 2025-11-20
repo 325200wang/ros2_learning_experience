@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-7dc198718eb7dd4c78db.json",
+					"jsonFile" : "directory-.-2049a5f98eb4c8f2481b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -44,7 +46,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "hello_qt::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hello_qt-f701eebe7effc86c0883.json",
+					"jsonFile" : "target-hello_qt-8976de3a0a9e88bd8cda.json",
 					"name" : "hello_qt",
 					"projectIndex" : 0
 				},
@@ -53,6 +55,13 @@
 					"id" : "status_display_uninstall::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-status_display_uninstall-53d9220f696fc30deac1.json",
 					"name" : "status_display_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sys_status_display::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sys_status_display-69ad667cf9f61398450c.json",
+					"name" : "sys_status_display",
 					"projectIndex" : 0
 				},
 				{
