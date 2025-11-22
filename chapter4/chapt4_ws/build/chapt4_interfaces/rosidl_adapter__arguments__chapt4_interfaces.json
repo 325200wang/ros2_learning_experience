@@ -1,0 +1,6 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/src/chapt4_interfaces:srv/FaceDetector.srv"
+  ]
+}
