@@ -1,6 +1,8 @@
+/media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/learn_face_detect.py
+/media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_client_node.cpython-310.pyc
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_node.cpython-310.pyc
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/__init__.cpython-310.pyc
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/learn_face_detect.cpython-310.pyc
@@ -14,5 +16,6 @@
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/SOURCES.txt
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/entry_points.txt
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/PKG-INFO
+/media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/demo_python_service/face_detect_client_node
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/demo_python_service/face_detect_node
 /media/dubhe/store/learning/ros2_learning_experience/chapter4/chapt4_ws/install/demo_python_service/lib/demo_python_service/learn_face_detect
