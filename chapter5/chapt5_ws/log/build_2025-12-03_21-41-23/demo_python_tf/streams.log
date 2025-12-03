@@ -1,0 +1,42 @@
+[0.386s] Invoking command in '/media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/src/demo_python_tf': PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/build/demo_python_tf/build install --record /media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.486s] /home/dubhe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.486s]   warnings.warn(msg)
+[0.535s] running egg_info
+[0.543s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[0.543s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[0.560s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.560s] adding license file 'LICENSE'
+[0.560s] Traceback (most recent call last):
+[0.560s]   File "/media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/src/demo_python_tf/setup.py", line 5, in <module>
+[0.560s]     setup(
+[0.560s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup
+[0.560s]     return distutils.core.setup(**attrs)
+[0.560s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.560s]     return run_commands(dist)
+[0.560s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.560s]     dist.run_commands()
+[0.560s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[0.561s]     self.run_command(cmd)
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command
+[0.561s]     super().run_command(command)
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[0.561s]     cmd_obj.run()
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.561s]     self.find_sources()
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.561s]     mm.run()
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.561s]     self.prune_file_list()
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.561s]     super().prune_file_list()
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[0.561s]     base_dir = self.distribution.get_fullname()
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[0.561s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.561s]   File "/home/dubhe/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[0.561s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.561s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.574s] Invoked command in '/media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/src/demo_python_tf' returned '1': PYTHONPATH=/media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/build/demo_python_tf/build install --record /media/dubhe/store/learning/ros2_learning_experience/chapter5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data
