@@ -1,4 +1,5 @@
 /media/dubhe/store/learning/ros2_learning_experience/chapter6/chapt6_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+/media/dubhe/store/learning/ros2_learning_experience/chapter6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/rviz.rviz
 /media/dubhe/store/learning/ros2_learning_experience/chapter6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
 /media/dubhe/store/learning/ros2_learning_experience/chapter6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
 /media/dubhe/store/learning/ros2_learning_experience/chapter6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
