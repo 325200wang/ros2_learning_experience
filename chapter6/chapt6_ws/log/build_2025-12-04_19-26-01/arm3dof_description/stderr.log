@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/media/dubhe/store/learning/ros2_learning_experience/chapter6/chapt6_ws/src/arm3dof_description/meshes":
+  No such file or directory.
+
+[0m
